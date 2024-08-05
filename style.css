@@ -98,6 +98,15 @@ button:hover {
     border: 1px solid #ddd;
 }
 
+.audio-section {
+    margin-top: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     .profile-pic {
@@ -110,7 +119,7 @@ button:hover {
     }
 
     .gallery-item {
-        width: 180px;
-        height: 180px;
+        width: 80px;
+        height: 80px;
     }
 }
